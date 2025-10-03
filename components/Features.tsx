@@ -67,7 +67,7 @@ const Features = () => {
                       Need support
                     </div>
                     <div className="bg-blue-500 text-white p-2 rounded-lg rounded-br-sm text-xs">
-                      I'm here to help!
+                      I&apos;m here to help!
                     </div>
                   </div>
                 </div>

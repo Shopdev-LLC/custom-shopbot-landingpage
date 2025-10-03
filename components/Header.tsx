@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 import ContactModal from "./ContactModal";
 
 const Header = () => {
@@ -28,7 +29,7 @@ const Header = () => {
       <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-white to-blue-100"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex items-center space-x-2">
+          <Link href="/" className="flex items-center space-x-2 cursor-pointer">
             <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
               <div className="w-4 h-4 bg-white rounded-sm flex items-center justify-center">
                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
@@ -37,7 +38,7 @@ const Header = () => {
             <span className="text-xl font-bold bg-gradient-to-l from-blue-500 to-purple-600 text-transparent bg-clip-text">
               ShopBot
             </span>
-          </div>
+          </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
             <button
@@ -74,7 +75,7 @@ const Header = () => {
               onClick={() => scrollToSection("faq")}
               className="text-gray-700 hover:text-purple-600 font-medium transition-colors cursor-pointer"
             >
-              FAQ's
+              FAQ&apos;s
             </button>
           </nav>
 
@@ -136,7 +137,7 @@ const Header = () => {
         <div className="md:hidden fixed inset-0 z-50 bg-black/60 backdrop-blur-sm animate-fadeIn">
           <div className="bg-gradient-to-br from-white/95 to-purple-50/95 backdrop-blur-xl min-h-screen shadow-2xl border-r border-white/20">
             <div className="flex items-center justify-between px-6 py-6 border-b border-purple-200/50">
-              <div className="flex items-center space-x-3">
+              <Link href="/" className="flex items-center space-x-3 cursor-pointer">
                 <div className="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
                   <div className="w-5 h-5 bg-white rounded-md flex items-center justify-center">
                     <div className="w-2.5 h-2.5 bg-purple-500 rounded-full"></div>
@@ -145,7 +146,7 @@ const Header = () => {
                 <span className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 text-transparent bg-clip-text">
                   ShopBot
                 </span>
-              </div>
+              </Link>
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="text-gray-500 hover:text-purple-600 cursor-pointer p-2 hover:bg-purple-100/50 rounded-full transition-all duration-200"
@@ -291,7 +292,7 @@ const Header = () => {
                     />
                   </svg>
                 </div>
-                <span>FAQ's</span>
+                <span>FAQ&apos;s</span>
               </button>
 
               <div className="flex flex-col space-y-3 pt-8 px-2">

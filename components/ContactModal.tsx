@@ -90,7 +90,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
                   Get In Touch
                 </h2>
                 <p className="text-blue-100 mt-1">
-                  We'd love to hear from you. Send us a message!
+                  We&apos;d love to hear from you. Send us a message!
                 </p>
               </div>
               <button
@@ -235,7 +235,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
                     Ready to transform your customer experience? Get in touch
-                    with our team and let's discuss how our AI chatbot can help
+                    with our team and let&apos;s discuss how our AI chatbot can help
                     your business grow.
                   </p>
                 </div>
@@ -286,7 +286,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
                       <h4 className="font-semibold text-gray-900">Email</h4>
                       <p className="text-gray-600">info@shopdev.co</p>
                       <p className="text-sm text-gray-500">
-                        We'll respond within 24 hours
+                        We&apos;ll respond within 24 hours
                       </p>
                     </div>
                   </div>

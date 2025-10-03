@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="space-y-6">
-              <div className="flex items-center space-x-2">
+              <Link href="/" className="flex items-center space-x-2 cursor-pointer">
                 <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                   <div className="w-4 h-4 bg-blue-50 rounded-sm flex items-center justify-center">
                     <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
@@ -27,9 +28,9 @@ const Footer = () => {
                 <span className="text-xl font-bold bg-gradient-to-l from-blue-500 to-purple-600 text-transparent bg-clip-text">
                   ShopBot
                 </span>
-              </div>
+              </Link>
               <p className="text-gray-300 leading-relaxed">
-                We're passionate about making conversations smoother and smarter
+                We&apos;re passionate about making conversations smoother and smarter
                 with AI technology...
               </p>
               <div className="flex space-x-4">

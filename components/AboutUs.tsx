@@ -61,13 +61,13 @@ const AboutUs = () => {
                               Hi there!
                             </div>
                             <div className="bg-purple-500 text-white p-2 rounded-lg rounded-br-sm text-xs">
-                              I'm here to help!
+                              I&apos;m here to help!
                             </div>
                             <div className="bg-blue-500 text-white p-2 rounded-lg rounded-bl-sm text-xs m-2">
                               Explain the chatbot functionality
                             </div>
                             <div className="bg-purple-500 text-white p-2 rounded-lg rounded-br-sm text-xs">
-                              I'll explain how it works
+                              I&apos;ll explain how it works
                             </div>
                             <div className="absolute bottom-0 right-0 rounded-lg px-3 py-2">
                               <div className="flex space-x-1">
@@ -123,14 +123,14 @@ const AboutUs = () => {
 
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p className="text-lg">
-                  We're on a mission to revolutionize how businesses
+                  We&apos;re on a mission to revolutionize how businesses
                   communicate. Our AI chatbots are designed to be fast,
                   intuitive, and incredibly lifelike —empowering teams to
                   provide 24/7 support and scale effortlessly.
                 </p>
 
                 <p className="text-lg">
-                  Whether you're a startup or a global brand, we make AI
+                  Whether you&apos;re a startup or a global brand, we make AI
                   accessible, practical, and impactful.
                 </p>
               </div>

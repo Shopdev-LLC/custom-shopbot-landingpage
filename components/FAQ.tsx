@@ -22,15 +22,15 @@ const FAQ = () => {
     },
     {
       question:
-        "How Much Can I Customize the Chatbot's Responses, Design, and Behavior?",
+        "How Much Can I Customize the Chatbot&apos;s Responses, Design, and Behavior?",
       answer:
-        "You have full control over your chatbot's personality, responses, design, and behavior. You can customize the interface colors, add your branding, train it with your specific content, and define conversation flows that match your business needs.",
+        "You have full control over your chatbot&apos;s personality, responses, design, and behavior. You can customize the interface colors, add your branding, train it with your specific content, and define conversation flows that match your business needs.",
     },
     {
       question:
         "Does the Chatbot Support Multiple Languages and Global Audiences?",
       answer:
-        "Yes, our chatbot supports multiple languages and can automatically detect and respond in the user's preferred language. This makes it perfect for businesses serving global audiences and international customers.",
+        "Yes, our chatbot supports multiple languages and can automatically detect and respond in the user&apos;s preferred language. This makes it perfect for businesses serving global audiences and international customers.",
     },
   ];
 
@@ -166,7 +166,7 @@ const FAQ = () => {
                 Still have questions?
               </h3>
               <p className="text-gray-600 mb-4">
-                Can't find the answer you're looking for? Please chat with our
+                Can&apos;t find the answer you&apos;re looking for? Please chat with our
                 friendly team.
               </p>
               <button
@@ -181,7 +181,7 @@ const FAQ = () => {
             <div>
               <div className="inline-flex items-center space-x-2 bg-blue-100 text-blue-600 px-4 py-2 rounded-full text-sm font-medium mb-4">
                 <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                <span>Faq's</span>
+                <span>FAQ&apos;s</span>
                 <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
               </div>
               <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
