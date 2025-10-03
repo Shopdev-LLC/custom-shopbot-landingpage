@@ -44,7 +44,7 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-3 sm:space-y-0 sm:space-x-4">
               <button
                 onClick={() => setIsContactModalOpen(true)}
-                className="w-1/2 sm:w-auto bg-sky-100 hover:bg-sky-200 text-blue-600 hover:text-blue-700 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl cursor-pointer"
+                className="w-half sm:w-auto bg-sky-100 hover:bg-sky-200 text-blue-600 hover:text-blue-700 px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition-all duration-200 transform hover:scale-105 shadow-lg hover:shadow-xl cursor-pointer"
               >
                 Consult With Our Expert
               </button>
@@ -67,7 +67,7 @@ const Hero = () => {
                         loop
                         muted
                         preload="metadata"
-                        poster="/robot.png"
+                        
                       >
                         <source
                           src="https://cdn.prod.website-files.com/68244466af56f93454b89152/68244466af56f93454b89476_shopping-assistant-transcode.webm"

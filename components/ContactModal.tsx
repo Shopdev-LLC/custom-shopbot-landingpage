@@ -64,7 +64,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
 
   const modalContent = (
     <div
-      className="fixed inset-0 z-[9999] flex items-center justify-center p-4 overflow-y-auto"
+      className="fixed inset-0 z-[9999] flex items-center justify-center p-4 overflow-y-auto contact-modal-scrollbar"
       style={{
         position: "fixed",
         top: 0,
@@ -78,7 +78,7 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
     >
       <div className="fixed inset-0 bg-black/60 backdrop-blur-sm"></div>
       <div
-        className={`relative w-full max-w-4xl max-h-[90vh] overflow-y-auto my-8 mx-auto transform transition-all duration-300 ${
+        className={`relative w-full max-w-4xl max-h-[90vh] overflow-y-auto contact-modal-scrollbar my-8 mx-auto transform transition-all duration-300 ${
           isAnimating ? "scale-100 opacity-100" : "scale-95 opacity-0"
         }`}
       >

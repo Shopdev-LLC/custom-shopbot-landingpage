@@ -29,7 +29,7 @@ const HowItWorks = () => {
                         autoPlay
                         loop
                         muted
-                        poster="/robot.png"
+                        // poster="/robot.png"
                       >
                         <source
                           src="https://cdn.prod.website-files.com/68244466af56f93454b89152/68244466af56f93454b89478_salesbot-transcode.webm"
